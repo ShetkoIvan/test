@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientService.API", "PatientService.API\PatientService.API.csproj", "{86680D24-9403-4CA8-949B-1F689D0E905A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientService.API", "PatientService.API\PatientService.API.csproj", "{86680D24-9403-4CA8-949B-1F689D0E905A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1636A5E6-CFD5-43A7-A0A9-FEF9B8F390D3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{9DA12CC6-A9E3-46C4-9F85-CC1A533A5959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientService.Domain", "PatientService.Domain\PatientService.Domain.csproj", "{8289139F-EBB2-4CDE-BE72-F338C0EF4228}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientService.Domain", "PatientService.Domain\PatientService.Domain.csproj", "{8289139F-EBB2-4CDE-BE72-F338C0EF4228}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientService.Application", "PatientService.Application\PatientService.Application.csproj", "{61591D7A-F385-4D90-A07E-090A0EB1E5EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientService.Application", "PatientService.Application\PatientService.Application.csproj", "{61591D7A-F385-4D90-A07E-090A0EB1E5EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientService.Infrastructure", "PatientService.Infrastructure\PatientService.Infrastructure.csproj", "{4337213F-747C-4F73-AB21-BDE1A6EBDE0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientService.Infrastructure", "PatientService.Infrastructure\PatientService.Infrastructure.csproj", "{4337213F-747C-4F73-AB21-BDE1A6EBDE0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{9435CD78-33E9-436B-98D2-1A966A9CDF80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{4337213F-747C-4F73-AB21-BDE1A6EBDE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4337213F-747C-4F73-AB21-BDE1A6EBDE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4337213F-747C-4F73-AB21-BDE1A6EBDE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9435CD78-33E9-436B-98D2-1A966A9CDF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9435CD78-33E9-436B-98D2-1A966A9CDF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9435CD78-33E9-436B-98D2-1A966A9CDF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9435CD78-33E9-436B-98D2-1A966A9CDF80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{8289139F-EBB2-4CDE-BE72-F338C0EF4228} = {1636A5E6-CFD5-43A7-A0A9-FEF9B8F390D3}
 		{61591D7A-F385-4D90-A07E-090A0EB1E5EC} = {1636A5E6-CFD5-43A7-A0A9-FEF9B8F390D3}
 		{4337213F-747C-4F73-AB21-BDE1A6EBDE0E} = {1636A5E6-CFD5-43A7-A0A9-FEF9B8F390D3}
+		{9435CD78-33E9-436B-98D2-1A966A9CDF80} = {9DA12CC6-A9E3-46C4-9F85-CC1A533A5959}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {601BCB67-172B-421C-9FEC-BC2583B3715C}
