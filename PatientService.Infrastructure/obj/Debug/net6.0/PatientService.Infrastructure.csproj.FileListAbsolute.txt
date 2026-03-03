@@ -1,8 +1,3 @@
-C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\PatientService.Infrastructure.csproj.AssemblyReference.cache
-C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\PatientService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\PatientService.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\PatientService.Infrastructure.AssemblyInfo.cs
-C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\PatientService.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\bin\Debug\net6.0\PatientService.Infrastructure.deps.json
 C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\bin\Debug\net6.0\PatientService.Infrastructure.runtimeconfig.json
 C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\bin\Debug\net6.0\PatientService.Infrastructure.dll
@@ -11,6 +6,11 @@ C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\bin\Debu
 C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\bin\Debug\net6.0\PatientService.Domain.dll
 C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\bin\Debug\net6.0\PatientService.Application.pdb
 C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\bin\Debug\net6.0\PatientService.Domain.pdb
+C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\PatientService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\PatientService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\PatientService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\PatientService.Infrastructure.AssemblyInfo.cs
+C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\PatientService.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\PatientS.98EE1375.Up2Date
 C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\PatientService.Infrastructure.dll
 C:\Users\Ivan\source\repos\PatientService\PatientService.Infrastructure\obj\Debug\net6.0\refint\PatientService.Infrastructure.dll

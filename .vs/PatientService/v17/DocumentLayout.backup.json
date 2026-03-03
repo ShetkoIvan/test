@@ -66,8 +66,7 @@
               "RelativeToolTip": "PatientService.Application\\Patients\\Queries\\SearchPatientsHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T09:44:06.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T09:44:06.689Z"
             },
             {
               "$type": "Document",
@@ -77,7 +76,7 @@
               "RelativeDocumentMoniker": "PatientService.API\\Program.cs",
               "ToolTip": "C:\\Users\\Ivan\\source\\repos\\PatientService\\PatientService.API\\Program.cs",
               "RelativeToolTip": "PatientService.API\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-03T09:41:09.744Z",
               "EditorCaption": ""
@@ -92,8 +91,7 @@
               "RelativeToolTip": "PatientService.Application\\Patients\\Commands\\CreatePatientCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T09:40:21.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T09:40:21.376Z"
             },
             {
               "$type": "Document",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "PatientService.Application\\Patients\\Commands\\CreatePatientHandler.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAswBkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T09:39:24.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T09:39:24.758Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "PatientService.Infrastructure\\Repositories\\PatientRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T09:30:18.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T09:30:18.399Z"
             },
             {
               "$type": "Document",
@@ -131,8 +127,7 @@
               "RelativeToolTip": "PatientService.Application\\Patients\\Commands\\DeletePatientHandler.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T09:29:19.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T09:29:19.794Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "PatientService.Application\\Patients\\Commands\\UpdatePatientHandler.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T09:22:13.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T09:22:13.87Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "PatientService.Application\\Patients\\Commands\\DeletePatientCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T09:21:04.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T09:21:04.122Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "PatientService.Application\\Patients\\Commands\\UpdatePatientCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T09:19:17.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T09:19:17.058Z"
             },
             {
               "$type": "Document",
@@ -183,8 +175,7 @@
               "RelativeToolTip": "PatientService.Application\\Patients\\Validators\\CreatePatientValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T09:15:14.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T09:15:14.098Z"
             },
             {
               "$type": "Document",
@@ -196,8 +187,7 @@
               "RelativeToolTip": "PatientService.API\\Controllers\\PatientsController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T09:15:04.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T09:15:04.346Z"
             }
           ]
         }
