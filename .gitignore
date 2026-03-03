@@ -1,10 +1,25 @@
 ############################
 # Build
 ############################
-bin/
-obj/
-out/
-publish/
+PatientService.API/bin/
+PatientService.API/obj/
+PatientService.API/out/
+PatientService.API/publish/
+
+PatientService.Application/bin/
+PatientService.Application/obj/
+PatientService.Application/out/
+PatientService.Application/publish/
+
+PatientService.Domain/bin/
+PatientService.Domain/obj/
+PatientService.Domain/out/
+PatientService.Domain/publish/
+
+PatientService.Infrastructure/bin/
+PatientService.Infrastructure/obj/
+PatientService.Infrastructure/out/
+PatientService.Infrastructure/publish/
 
 ############################
 # Rider
