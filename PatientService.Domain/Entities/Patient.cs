@@ -20,7 +20,7 @@ namespace PatientService.Domain.Entities
             if (birthDate == default)
                 throw new ArgumentException("BirthDate is required");
 
-            BirthDate = birthDate;
+            BirthDate = birthDate.ToUniversalTime();
         }
 
         public void SetGender(Gender gender)

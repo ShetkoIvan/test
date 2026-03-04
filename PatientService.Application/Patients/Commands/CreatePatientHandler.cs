@@ -24,7 +24,7 @@ namespace PatientService.Application.Patients.Commands
                 Id = Guid.NewGuid(),
                 Name = new HumanName(cmd.Family, cmd.Given, cmd.Use),
                 Gender = cmd.Gender,
-                BirthDate = cmd.BirthDate,
+                BirthDate = cmd.BirthDate.ToUniversalTime(),
                 Active = cmd.Active
             };
 
