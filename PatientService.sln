@@ -6,6 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientService.API", "PatientService.API\PatientService.API.csproj", "{86680D24-9403-4CA8-949B-1F689D0E905A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1636A5E6-CFD5-43A7-A0A9-FEF9B8F390D3}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{9DA12CC6-A9E3-46C4-9F85-CC1A533A5959}"
 EndProject
@@ -16,13 +20,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientService.Infrastructure", "PatientService.Infrastructure\PatientService.Infrastructure.csproj", "{4337213F-747C-4F73-AB21-BDE1A6EBDE0E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{9435CD78-33E9-436B-98D2-1A966A9CDF80}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postman", "postman", "{BA5671E7-43FB-479E-A6EA-5CC838427230}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\OneDrive\Desktop\123123123123123\Patient CRUD.postman_collection.json = ..\..\..\OneDrive\Desktop\123123123123123\Patient CRUD.postman_collection.json
-		..\..\..\OneDrive\Desktop\PatientService - Local.postman_environment.json = ..\..\..\OneDrive\Desktop\PatientService - Local.postman_environment.json
-		..\..\..\OneDrive\Desktop\PatientService - Seed 20 Patients.postman_collection.json = ..\..\..\OneDrive\Desktop\PatientService - Seed 20 Patients.postman_collection.json
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

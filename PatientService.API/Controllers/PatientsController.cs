@@ -43,5 +43,13 @@ namespace PatientService.API.Controllers
             await _mediator.Send(new DeletePatientCommand(id));
             return NoContent();
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<PatientDto>> GetById(Guid id)
+        {
+            var patient = await _mediator.Send(new GetPatientByIdQuery(id));
+
+            return Ok(patient);
+        }
     }
 }
