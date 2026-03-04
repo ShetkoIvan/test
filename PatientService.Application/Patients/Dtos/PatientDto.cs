@@ -1,6 +1,4 @@
-﻿using PatientService.Domain.Enums;
-
-namespace PatientService.Application.Patients.Dtos
+﻿namespace PatientService.Application.Patients.Dtos
 {
     public record PatientDto()
     {
