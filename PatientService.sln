@@ -17,6 +17,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientService.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{9435CD78-33E9-436B-98D2-1A966A9CDF80}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PostmanCollections", "PostmanCollections", "{1FADF7A7-5C31-4AB3-8117-AA7C26CD0F43}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive\Desktop\Patient CRUD.postman_collection.json = ..\..\..\OneDrive\Desktop\Patient CRUD.postman_collection.json
+		..\..\..\OneDrive\Desktop\PatientService - Seed 20 Patients.postman_collection.json = ..\..\..\OneDrive\Desktop\PatientService - Seed 20 Patients.postman_collection.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +59,7 @@ Global
 		{61591D7A-F385-4D90-A07E-090A0EB1E5EC} = {1636A5E6-CFD5-43A7-A0A9-FEF9B8F390D3}
 		{4337213F-747C-4F73-AB21-BDE1A6EBDE0E} = {1636A5E6-CFD5-43A7-A0A9-FEF9B8F390D3}
 		{9435CD78-33E9-436B-98D2-1A966A9CDF80} = {9DA12CC6-A9E3-46C4-9F85-CC1A533A5959}
+		{1FADF7A7-5C31-4AB3-8117-AA7C26CD0F43} = {9DA12CC6-A9E3-46C4-9F85-CC1A533A5959}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {601BCB67-172B-421C-9FEC-BC2583B3715C}

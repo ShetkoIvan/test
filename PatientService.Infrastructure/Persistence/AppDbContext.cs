@@ -12,7 +12,12 @@ namespace PatientService.Infrastructure.Persistence
 
         protected override void OnModelCreating(ModelBuilder b)
         {
-            b.Entity<Patient>().OwnsOne(x => x.Name);
+            b.Entity<Patient>()
+                .OwnsOne(x => x.Name);
+
+            b.Entity<Patient>()
+                .Property(p => p.BirthDate)
+                .HasColumnType("timestamp without time zone");
         }
     }
 }

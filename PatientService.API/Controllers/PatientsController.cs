@@ -24,7 +24,7 @@ namespace PatientService.API.Controllers
         }
 
         [HttpGet]
-        public async Task<List<PatientDto>> Search([FromQuery] string? birthDate)
+        public async Task<IEnumerable<PatientDto>> Search([FromQuery] string? birthDate)
         {
             return await _mediator.Send(new SearchPatientsQuery(birthDate));
         }

@@ -25,7 +25,8 @@ namespace PatientService.Application.Patients.Queries
 
             var query = _rep.Query();
 
-            var dateFilter = FhirDateParser.Apply(query, request.BirthDate);
+            var dateFilter = ApplyBirthDate.GetQuery(query, request.BirthDate);
+
             var patients = await _rep.ExecuteAsync(dateFilter, ct);
 
             return _mapper.Map<IReadOnlyList<PatientDto>>(patients);
