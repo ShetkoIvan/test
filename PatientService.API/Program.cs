@@ -9,6 +9,7 @@ using PatientService.Infrastructure.Repositories;
 using System.Text.Json.Serialization;
 using FluentValidation;
 using MediatR;
+using PatientService.API.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,6 +48,8 @@ builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
 var app = builder.Build();
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 if (app.Environment.IsDevelopment())
 {

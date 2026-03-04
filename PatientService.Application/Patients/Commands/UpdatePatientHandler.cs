@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using PatientService.Application.Exceptions;
 using PatientService.Domain.ValueObjects;
 
 namespace PatientService.Application.Patients.Commands
@@ -16,7 +17,7 @@ namespace PatientService.Application.Patients.Commands
         {
             var patient = await _rep.GetByIdAsync(r.Id, ct);
             if (patient is null)
-                throw new Exception($"Patient {r.Id} not found");
+                throw new NotFoundException($"Patient {r.Id} not found");
 
             patient.ChangeName(new HumanName(r.Family, r.Given, r.Use));
             patient.SetBirthDate(r.BirthDate);

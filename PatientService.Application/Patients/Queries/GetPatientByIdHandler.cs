@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
+using PatientService.Application.Exceptions;
 using PatientService.Application.Patients.Dtos;
 
 namespace PatientService.Application.Patients.Queries
@@ -22,7 +23,7 @@ namespace PatientService.Application.Patients.Queries
             var patient = await _repository.GetByIdAsync(request.Id, cancellationToken);
 
             if (patient == null)
-                throw new Exception("Patient not found");
+                throw new NotFoundException("Patient not found");
 
             return _mapper.Map<PatientDto>(patient);
         }

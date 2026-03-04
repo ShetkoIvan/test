@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using PatientService.Application.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,7 @@ namespace PatientService.Application.Patients.Commands
         {
             var patient = await _rep.GetByIdAsync(r.Id, ct);
             if (patient is null)
-                throw new Exception($"Patient {r.Id} not found");
+                throw new NotFoundException($"Patient {r.Id} not found");
 
             _rep.Remove(patient);
             await _rep.SaveChangesAsync(ct);
