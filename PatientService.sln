@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGenerator", "DataGenera
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postman", "postman", "{BA5671E7-43FB-479E-A6EA-5CC838427230}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\OneDrive\Desktop\Patient CRUD.postman_collection.json = ..\..\..\OneDrive\Desktop\Patient CRUD.postman_collection.json
+		..\..\..\OneDrive\Desktop\123123123123123\Patient CRUD.postman_collection.json = ..\..\..\OneDrive\Desktop\123123123123123\Patient CRUD.postman_collection.json
 		..\..\..\OneDrive\Desktop\PatientService - Local.postman_environment.json = ..\..\..\OneDrive\Desktop\PatientService - Local.postman_environment.json
 		..\..\..\OneDrive\Desktop\PatientService - Seed 20 Patients.postman_collection.json = ..\..\..\OneDrive\Desktop\PatientService - Seed 20 Patients.postman_collection.json
 	EndProjectSection
